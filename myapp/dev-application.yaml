@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/syamtumati/argocd-app.git  # e.g., https://github.com/your-org/myapp.git
-    targetRevision: main
+    targetRevision: master
     path: myapp/overlays/dev
     kustomize:
       namePrefix: dev-
